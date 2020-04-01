@@ -24,8 +24,6 @@ git clone https://github.com/jcnborges/irr-python.git
 
 # execução
 
-Vá até o diretório raiz da minha aplicação:
+Eu já deixei a imagem pronta, então basta carregar no container de vocês!
 
-docker build --tag irr-python .
-
-docker run --name python-app -p 5000:5000 irr-python
+Infelizmente ela é maior que o limite de arquivos do git então deixei disponvel para donwnload em: https://sites.google.com/site/jcnborges/irr-python.tar.gz
