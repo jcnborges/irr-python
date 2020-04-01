@@ -38,4 +38,4 @@ sudo docker load irr-python-julio-cesar-bs-nardelli.tar.gz
 
 Não sei qual o ambiente de testes de vocês mas para mim foi assim:
 
-sudo docker run --name python-app -p 5000:5000 irr-python-julio-cesar-bs-nardelli.tar
+sudo docker run --name python-app -p 5000:5000 irr-python-julio-cesar-bs-nardelli
