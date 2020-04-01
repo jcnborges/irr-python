@@ -11,7 +11,9 @@ Esse é um repositório público, por isso peço por favor, não compartilhem es
 Essa aplicação foi testada em um sistema Ubuntu 18.04 e Docker versão 19.03.6, se você não tiver o Docker faça o seguinte:
 
 sudo apt-get install docker.io
+
 sudo systemctl start docker
+
 sudo systemctl enable docker
 
 # clone
@@ -25,4 +27,5 @@ git clone https://github.com/jcnborges/irr-python.git
 Vá até o diretório raiz da minha aplicação:
 
 docker build --tag irr-python .
+
 docker run --name python-app -p 5000:5000 irr-python
