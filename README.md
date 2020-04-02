@@ -30,12 +30,10 @@ git clone https://github.com/jcnborges/irr-python.git
 
 Eu já deixei a imagem pronta, então basta carregar no container de vocês!
 
-Infelizmente ela é maior que o limite de arquivos do git então a deixei disponível para donwnload em: https://sites.google.com/site/jcnborges/irr-python-julio-cesar-bs-nardelli.tar.gz
+Infelizmente ela é maior que o limite de arquivos do git então a deixei disponível para download em: https://sites.google.com/site/jcnborges/irr-python-julio-cesar-bs-nardelli.tar.gz
 
 sudo docker load irr-python-julio-cesar-bs-nardelli.tar.gz
 
 # execução
-
-Não sei qual o ambiente de testes de vocês mas para mim foi assim:
 
 sudo docker run --name python-app -p 5000:5000 irr-python-julio-cesar-bs-nardelli
