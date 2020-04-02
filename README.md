@@ -50,7 +50,7 @@ sudo docker build --tag irr-python-julio-cesar-bs-nardelli .
 
 # execução
 
-Depois que a imagem estiver instalada, execute em um container. Abaixo usei um container chamado ***python-app***, certifique-se que esse nome não esteja em uso:
+Depois que a imagem estiver instalada, execute em um container. No meu teste, usei um container chamado ***python-app***, certifique-se de que esse nome não esteja em uso, caso esteja, pode mudar o nome.
 
 ```
 sudo docker run --name python-app -p 5000:5000 irr-python-julio-cesar-bs-nardelli
