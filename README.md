@@ -4,7 +4,7 @@ Olá amigos!
 
 Agradeço pela oportunidade de participar do processo seletivo, espero que gostem do meu programa.
 
-Esse é um repositório público, por isso peço, por favor, não compartilhem essa URL com ninguém mais além de vocês.
+Esse é um repositório público, por isso, eu peço que não compartilhem essa URL com ninguém mais além de vocês.
 
 Um abraço!
 
