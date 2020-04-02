@@ -36,6 +36,8 @@ Eu já deixei a imagem pronta, então basta carregar no container de vocês!
 
 Infelizmente ela é maior que o limite de arquivos do git então a deixei disponível para download em: https://drive.google.com/open?id=1BMxXNH8IlSjcktpxH2TW258zdBfFNVqw
 
+Na pasta onde você baixou o arquivo, execute o comando:
+
 ```
 sudo docker load < irr-python-julio-cesar-bs-nardelli.tar.gz
 ```
