@@ -42,7 +42,7 @@ sudo docker load < irr-python-julio-cesar-bs-nardelli.tar.gz
 
 # build
 
-Caso você não tenha conseguido baixar minha imagem, pode construí-la em seu ambiente. O projeto já possui um arquivo Dockerfile configurado. Na pasta raiz execute o comando:
+Caso você não tenha conseguido baixar minha imagem, pode construí-la em seu ambiente. O projeto já possui um arquivo ***Dockerfile*** configurado. Na pasta raiz execute o comando:
 
 ```
 sudo docker build --tag irr-python-julio-cesar-bs-nardelli .
