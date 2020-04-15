@@ -136,6 +136,7 @@ def getSelic():
     listJsonSelic = json.loads(r.text)
     for jsonSelic in listJsonSelic:
         result.append(Selic(datetime.strptime(jsonSelic["data"], "%d/%m/%Y").date(), float(jsonSelic["valor"])))
+    s.close()
     return result
 
 def dataFrameToListAtivos(df):

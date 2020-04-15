@@ -57,3 +57,10 @@ Depois que a imagem estiver instalada, execute-a em um container. No meu teste, 
 ```
 sudo docker run --name python-app -p 5000:5000 irr-python-julio-cesar-bs-nardelli
 ```
+# testes unitários
+
+Caso você queira executar os testes unitários, na pasta raiz do projeto execute o comando:
+
+```
+python -m unittest -v unit.py
+```
