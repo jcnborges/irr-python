@@ -61,7 +61,7 @@ class TestCaseGeral(unittest.TestCase):
     def test_selic(self):
         selic = getSelic()
         self.assertTrue(len(selic) > 0)
-        self.assertFalse(len(selic) < 0)
+        self.assertFalse(len(selic) == 0)
         
 if __name__ == '__main__':
     unittest.main()
